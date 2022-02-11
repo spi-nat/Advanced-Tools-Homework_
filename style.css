@@ -122,3 +122,15 @@ p {
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
+@media (max-width: 570px) {
+  h1, h2 {
+    font-size: 30px;
+  }
+  p {
+    text-align: center;
+  }
+  .mt-5 {
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+  }
